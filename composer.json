@@ -1,0 +1,30 @@
+{
+    "name": "dunglas/torcontrol-bundle",
+    "type": "symfony-bundle",
+    "description": "Integration of PHP TorControl library in Symfony",
+    "keywords": ["Tor", "Symfony"],
+    "homepage": "http://dunglas.fr",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+    {
+        "name": "Kévin Dunglas",
+        "email": "dunglas@gmail.com",
+        "homepage": "http://dunglas.fr"
+    }
+    ],
+
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": "2.1.*",
+        "dunglas/php-torcontrol": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Dunglas\\TorControlBundle": ""
+        }
+    },
+
+    "target-dir": "Dunglas/TorControlBundle"
+}
