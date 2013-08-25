@@ -5,7 +5,7 @@
     "keywords": ["Tor", "Symfony"],
     "homepage": "http://dunglas.fr",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
     {
         "name": "Kévin Dunglas",
@@ -16,8 +16,8 @@
 
     "require": {
         "php": ">=5.4",
-        "symfony/symfony": "2.1.*",
-        "dunglas/php-torcontrol": "dev-master"
+        "symfony/symfony": "~2.1",
+        "dunglas/php-torcontrol": "~1.0"
     },
 
     "autoload": {
