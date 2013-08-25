@@ -9,7 +9,7 @@ Installation
 
 Use [Composer](http://getcomposer.org/) to install this bundle:
 
-    composer require dunglas/torcontrol-bundle:dev-master
+    composer require dunglas/torcontrol-bundle
 
 Add the bundle to the application kernel:
 
