@@ -14,10 +14,10 @@ Use [Composer](http://getcomposer.org/) to install this bundle:
 Add the bundle to the application kernel:
 
 ```php
-        $bundles = array(
-            // ...
-            new Dunglas\TorControlBundle\DunglasTorControlBundle(),
-        );
+$bundles = array(
+    // ...
+    new Dunglas\TorControlBundle\DunglasTorControlBundle(),
+);
 ```
 
 Configuration
@@ -26,18 +26,18 @@ Configuration
 ```yaml
 # app/config/config.yml
 dunglas_tor_control:
-# Hostname or IP of the Tor server (default to localhost)
-hostname: ~
-# Port (default to 9051)
-port: ~
-# "null" for no authentication, "password" for password auth, "cookie" for cookie file auth (default to autodetect)
-authmethod: "null"
-# Password to use if the password auth method is used (no default)
-password: ~
-# Cookie file is this auth method is used (no default)
-cookiefile: ~
-# Connection timeout (default to php.ini setting)
-Timeout: ~
+    # Hostname or IP of the Tor server (default to localhost)
+    hostname: ~
+    # Port (default to 9051)
+    port: ~
+    # "null" for no authentication, "password" for password auth, "cookie" for cookie file auth (default to autodetect)
+    authmethod: "null"
+    # Password to use if the password auth method is used (no default)
+    password: ~
+    # Cookie file is this auth method is used (no default)
+    cookiefile: ~
+    # Connection timeout (default to php.ini setting)
+    timeout: ~
 ```
 
 Usage
@@ -51,4 +51,4 @@ $tc = $this->get('torcontrol');
 Credits
 -------
 
-This bundle has been wrote by [Kévin Dunglas](http://dunglas.fr).
+This bundle has been written by [Kévin Dunglas](http://dunglas.fr).
