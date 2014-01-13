@@ -4,6 +4,8 @@ DunglasTorControlBundle, TorControl Symfony integration
 Use the [PHP TorControl library](http://dunglas.fr/2013/02/php-torcontrol-a-library-to-control-tor/) with [Symfony](http://symfony.com).
 TorControl allows to control a [Tor](https://www.torproject.org/) server.
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/9a29e632-8500-4b48-92ee-d33595410d8b/mini.png)](https://insight.sensiolabs.com/projects/9a29e632-8500-4b48-92ee-d33595410d8b)
+
 Installation
 ------------
 
