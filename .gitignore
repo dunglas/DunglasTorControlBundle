@@ -1,8 +1,5 @@
-.idea
-.DS_Store
-phpunit.xml
-nbproject
-coverage
 composer.lock
-vendor
 composer.phar
+vendor
+phpunit.xml
+coverage
