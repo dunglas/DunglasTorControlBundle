@@ -13,6 +13,9 @@ namespace Dunglas\TorControlBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
+/**
+ * @author Kévin Dunglas <dunglas@gmail.com>
+ */
 class DunglasTorControlBundle extends Bundle
 {
 }

@@ -3,3 +3,5 @@ composer.phar
 vendor
 phpunit.xml
 coverage
+Tests/cache
+Tests/logs
