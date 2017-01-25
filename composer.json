@@ -16,7 +16,7 @@
 
     "require": {
         "php": ">=5.4",
-        "symfony/symfony": "~2.1",
+        "symfony/symfony": "^2.1|^3.0",
         "dunglas/php-torcontrol": "~1.0"
     },
 
